@@ -15,7 +15,9 @@
 
 void main(void) {
 	//call your initialisation functions to set up the hardware modules
-
+    LEDarray_init();
+    Comp1_init();
+    Interrupts_init();
     while (1) {
 		
     }
